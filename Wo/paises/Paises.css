@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    position: relative;
+    width: 60%;
+    margin-left: 50%;
+    transform: translateX(-50%)
+}
+
+/* -------- BACKGROUNDS IMGS -------- */
+
+.bg{
+    position: relative;
+    width: 100%;
+    background-size: 100% 100%;
+    z-index: -1;
+}
+
+#bg-1{
+    height: 1550px;
+    background-image: url(../data/mulherNoJardim.png);
+    background-attachment: fixed;
+}
+#bg-2{
+    height: 500px;
+    background-image: url(../data/estatuaLiberdade.png);
+    background-position: bottom center;
+}
+#bg-3{
+    height: 500px;
+    background-image: url(../data/imgPorto.png);
+    background-attachment: fixed;
+    
+}
+section.rodape{
+    width: 100%;
+    height: 85px;
+    background-color: #868686;
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+
+
+section.primeira{
+    width: 60%;
+    min-height: 440px;
+    background-color:#FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,  -50%);
+    z-index: 22;
+    padding:3% 4%;
+}
+
+section.primeira .left{
+    float: left;
+    width: 25%;
+    height: 314px;
+}
+
+section.primeira .left .part{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 20px;
+}
+
+section.primeira .left #part-1{
+    background-image: url(../data/bandeiras/bandeira_pt.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+section.primeira .left #part-2{
+    background-image: url(../data/bandeiras/bandeira_eua.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+section.primeira .right{
+    float: right;
+    width: 60%;
+    margin-right: 10%;
+    height: 314px;
+}
+
+section.primeira .right #titulo{
+    font-size: 48px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+section.primeira .card p{
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+/* ------- SECTION-2 ------*/
+
+section.container .p1{
+    width: 100%;
+    margin-top: 25%;
+    margin-bottom: 15%;
+}
+
+section.container .p1 h1{
+    font-size: 48px;
+}
+
+section.container .p1 hr{
+    width:100%;
+    color: #A0A0A0;
+    margin-top: 50px;
+}
+
+section.container .p2{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+section.container .p2 h1{
+    font-size: 36px;
+    margin-right: 20px;
+    display: inline-block;
+    float: left;
+}
+
+section.container .p2 img{
+    margin-right: 39px;
+}
+
+#eua{
+    min-height: 284px;      
+}
+#pt{
+    min-height: 284px;
+}
+section.primeira h1{
+    float: right;
+    font-size: 48px;
+    margin-right: 20%;
+    margin-top: 6%;
+}
